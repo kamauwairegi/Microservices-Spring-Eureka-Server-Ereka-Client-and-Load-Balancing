@@ -23,4 +23,4 @@ Checkout the three apps and run  them as invividual app in the following ports:
     }
   '''
  
-The API call uses the registered app name ** movie-service ** and not static IP
+The API call uses the registered app name **movie-service** and not static IP
