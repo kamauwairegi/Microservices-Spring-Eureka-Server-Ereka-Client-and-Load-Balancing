@@ -14,13 +14,13 @@ Checkout the three apps and run  them as invividual app in the following ports:
  
  # Key method to note
  
- '''
+ ```
   @RequestMapping(value = "/recommendations", method = RequestMethod.GET)
     @ResponseBody
     public Movie[] recommendations() {
         Movie[] result = restTemplate.getForObject("http://movie-service/movies", Movie[].class);
         return result;
     }
-  '''
+  ```
  
 The API call uses the registered app name **movie-service** and not static IP
